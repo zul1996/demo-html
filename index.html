@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Demo HTML</title>
   </head>
 
   <body>
     <nav>
       <div class="logo">
-        <img src="./alien1.png" width="200px" alt="" />
+        <img src="./alien1.png" width="200" alt="Alien" />
       </div>
       <div class="menu">
         <ul>
@@ -20,22 +20,24 @@
         </ul>
       </div>
     </nav>
+
     <!-- Hero Section -->
     <section class="hero">
-      <div class="leftside">
+      <div class="left-side">
         <h1>Hello Alien</h1>
         <p>
-          i'am coming for a treasure, let me find witd a peace in ur planet.
+          I am coming for a treasure, let me find with a peace in your planet.
         </p>
       </div>
-      <div class="rightside">
-        <img src="alien2.png" width="200" alt="" />
+      <div class="right-side">
+        <img src="alien2.png" width="200" alt="Alien Two" />
       </div>
     </section>
+
     <!-- About Section -->
     <section class="about">
       <blockquote>
-        <p>"I am Green "</p>
+        <p>"I am Green"</p>
       </blockquote>
       <h2>A level of alien</h2>
       <ol>
@@ -53,9 +55,17 @@
         <dd>- Second Description</dd>
       </dl>
     </section>
+
     <!-- Register Section -->
     <section class="register">
       <h2>Sign up Alien</h2>
+      <form>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+      </form>
+
       <table>
         <thead>
           <tr>
@@ -63,10 +73,10 @@
               <p>No</p>
             </th>
             <th>
-              <p>Keterangan</p>
+              <p>Nama</p>
             </th>
             <th>
-              <p>Kolom</p>
+              <p>Keterangan</p>
             </th>
           </tr>
         </thead>
@@ -79,7 +89,7 @@
               <label for="alien-name">Name :</label>
             </td>
             <td>
-              <input type="text" name="alien-name" autofocus />
+              <input type="text" name="alien-name" autofocus id="alien-name" />
             </td>
           </tr>
 
@@ -123,7 +133,12 @@
             <td colspan="2">
               <fieldset>
                 <legend>Level Alien</legend>
-                <input type="checkbox" name="animal-1" value="Cat" />
+                <input
+                  type="checkbox"
+                  name="animal-1"
+                  value="Cat"
+                  id="animal-1"
+                />
                 <label for="animal-1"> Viscount</label>
                 <input type="checkbox" name="animal-2" value="Dog" />
                 <label for="animal-2"> Count</label>
@@ -141,13 +156,15 @@
           <tr>
             <td colspan="3">
               <input type="submit" value="Register" />
+              <button type="submit">Register</button>
             </td>
           </tr>
         </tbody>
       </table>
     </section>
+
+    <footer>
+      <p>Copyright &copy; 2022 Muhammad Zulkarnaen Indranto</p>
+    </footer>
   </body>
-  <footer>
-    <p>Copyright & copy;2022 Muhammad Zulkarnaen Indranto</p>
-  </footer>
 </html>

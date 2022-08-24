@@ -1,5 +1,5 @@
-# Demo-html
+# Demo HTML
 
-Practice html using alien theme, there is any a few syntax like table, form, fieldset, legend. i give screenshot of my demo.
+Practice HTML using an alien theme. There are a few HTML elements like table, form, fieldset, and legend. I also include a screenshot of my demo.
 
-<img src="./ss%20alien%20crop.png" alt="" width="200px">
+![Alien Screenshot](./ss-alien-crop.png)
